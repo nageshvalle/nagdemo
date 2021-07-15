@@ -16,6 +16,11 @@ pipeline{
                 steps {
                 echo "deploying code"
                 }
+                stage(create JIRA ticket') {
+                      steps {
+                          echo 'JIRA ticket'
+                      }
+                      }
             }
         }
 }
