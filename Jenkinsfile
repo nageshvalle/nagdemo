@@ -17,7 +17,7 @@ pipeline{
                 echo "deploying code"
                 }
             }
-                stage(create JIRA ticket') {
+                stage('create JIRA ticket') {
                       steps {
                           echo 'JIRA ticket'
                       }
